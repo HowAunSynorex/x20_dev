@@ -1,0 +1,1 @@
+<iframe src="<?php echo base_url('export/pdf_export/'.$result['pid'].'?token='.$_GET['token']); ?>" width="100%" height="500px"></iframe>

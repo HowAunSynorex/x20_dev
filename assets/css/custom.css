@@ -1,0 +1,145 @@
+.event-checkbox-class .custom-control-input:checked~.custom-control-label::before {
+	border-color: #7986CB !important;
+    background-color: #7986CB !important;
+}
+
+.event-checkbox-holiday .custom-control-input:checked~.custom-control-label::before {
+	border-color: #009688 !important;
+    background-color: #009688 !important;
+}
+
+.event-checkbox-birthday .custom-control-input:checked~.custom-control-label::before {
+	border-color: #EF6C00 !important;
+    background-color: #EF6C00 !important;
+}
+
+.event-checkbox-event .custom-control-input:checked~.custom-control-label::before {
+	border-color: #3F51B5 !important;
+    background-color: #3F51B5 !important;
+}
+
+.input-remove_arrow::-webkit-outer-spin-button,
+.input-remove_arrow::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.input-remove_arrow[type=number] {
+	-moz-appearance: textfield;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+.table-sm2 th:first-child,
+.table-sm2 td:first-child {
+	padding-left: 1.25rem;
+}
+.table-sm2 th:last-child,
+.table-sm2 td:last-child {
+	padding-right: 1.25rem;
+}
+
+.badge-sm {
+	font-size: 12px;
+}
+
+::-webkit-scrollbar {
+    height: 10px; /* width of the scrolpane */
+}
+::-webkit-scrollbar-thumb:horizontal {
+    width: 60px;
+    background-color: rgba(0,0,0,.25);
+    border: 1px solid #eee;
+    -webkit-border-radius: 6px;
+}
+
+.introjs-helperLayer {
+    background: transparent;
+}
+
+.introjs-overlay {
+    opacity: 0 !important;
+}
+
+.introjs-helperLayer:before {
+    opacity: 0;
+    content: '';
+    position: fixed;
+    width: inherit;
+    height: inherit;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 1000em rgba(0,0,0, .7);
+    opacity: 1;
+}
+
+.introjs-helperLayer:after {
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.custom-feedback-btn {
+	background-color : #216ef4;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	border-color: #216ef4;
+}
+
+.custom-feedback {
+	position: fixed;
+	bottom: -4px;
+	right: 10px;
+}
+
+/*
+ * bulk checklist
+ *
+**/
+.checkbox-bulk {
+	height: 18px;
+	width: 18px;
+	display: none;
+}
+.checkbox-bulk:checked {
+	display: block;
+}
+.hover-hide-no:hover .no {
+	display: none;
+}
+.hover-hide-no:hover .checkbox-bulk {
+	display: block;
+}
+.navbar-bulk {
+	box-shadow: 0 -1px 10px rgba(0,0,0,.1)!important
+}
+@media only screen and (min-width: 768px) {
+	.navbar-bulk {
+		margin-left: 225px;
+	}
+}
+
+.blink_me {
+  animation: blinker .75s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: .25;
+  }
+}
+
+.container-wrapper {
+	padding-bottom: 3rem
+}
+
+
+#sidebar-wrapper {
+	height: calc(100% - 52px);
+	overflow-x: hidden;
+}

@@ -1,0 +1,33 @@
+table input[type=checkbox] {
+	height: 20px;
+	width: 20px;
+}
+
+@media print {
+	@page {
+		size: landscape
+	}
+	#wrapper, body {
+		margin: 0;
+		padding: 0;
+	}
+	#copyright, .btn, #sidebar-wrapper, nav, .join-on-text, #live-chat-widget, .sort-link {
+		display: none !important;
+	}
+	#wrapper.toggled {
+		padding: 0;
+	}
+	table td, table th {
+		padding: .25rem !important;
+		font-size: 12px !important;
+	}
+	.container-wrapper {
+		min-height: inherit;
+	}
+	#live-chat-widget {
+		display: none;
+	}
+	body {
+		background: #ffffff;
+	}
+}

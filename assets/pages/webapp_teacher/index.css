@@ -1,0 +1,42 @@
+.table, .table * {
+	border: 0!important;
+}
+
+.checkbox-container {
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	margin: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.checkbox-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	display: block;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.checkbox-none input:checked ~ .checkmark {
+	background-color: white;
+	color: black;
+}
+.checkbox-present input:checked ~ .checkmark {
+	background-color: #28a745;
+	color: white;
+}
+.checkbox-absent input:checked ~ .checkmark {
+	background-color: #dc3545;
+	color: white;
+}
