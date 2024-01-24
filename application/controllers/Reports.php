@@ -3308,5 +3308,5 @@ class Reports extends CI_Controller {
 		}
 		return $result;
 	}
-
+// Ling HA
 }
