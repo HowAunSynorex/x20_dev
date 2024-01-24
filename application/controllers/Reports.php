@@ -3308,14 +3308,5 @@ class Reports extends CI_Controller {
 		}
 		return $result;
 	}
-//  commented
-//  commented
-//  commented
-//  commented
-//  commented
-//  commented
-//  commented
-//  commented
-//  commented
 
 }
