@@ -148,6 +148,6 @@
     var filter_level = $("#filter_level").val();
     var filter_month = $("#filter_month").val();
     var filter_year = $("#filter_year").val();
-    window.location.href="<?php echo site_url(); ?>reports/subject_student_count/"+filter_level+"/"+filter_month+"/"+filter_year;
+    window.location.href="<?php echo site_url(); ?>reports/sub_stud_count/"+filter_level+"/"+filter_month+"/"+filter_year;
   }
 </script>
